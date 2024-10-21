@@ -2,7 +2,7 @@
 pragma solidity ^0.8.25;
 
 import "./BaseTest.t.sol";
-import "src/WrappedEtherExploit.sol";
+import "../exploits/WrappedEtherExploit.sol";
 import "src/WrappedEther.sol";
 
 // forge test --match-contract WrappedEtherTest
